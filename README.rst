@@ -6,10 +6,10 @@
   (compatible with *django-leaflet* for map widgets)
 
 
-.. image:: https://pypip.in/v/django-geojson/badge.png
+.. image:: https://img.shields.io/pypi/v/django-geojson.svg
         :target: https://pypi.python.org/pypi/django-geojson
 
-.. image:: https://pypip.in/d/django-geojson/badge.png
+.. image:: https://img.shields.io/pypi/dm/django-geojson.svg
         :target: https://pypi.python.org/pypi/django-geojson
 
 .. image:: https://travis-ci.org/makinacorpus/django-geojson.png?branch=master
@@ -109,7 +109,7 @@ Options are :
 * **srid** : projection (*default*: 4326, for WGS84)
 * **bbox** : Allows you to set your own bounding box on feature collection level
 * **bbox_auto** : True/False (default false). Will automatically generate a bounding box on a per feature level.
-
+* **use_natural_keys** : serialize natural keys instead of primary keys (*default*: ``False``)
 
 
 Tiled GeoJSON layer view
@@ -262,6 +262,9 @@ AUTHORS
     * @jeffkistler's author of geojson serializer at: https://gist.github.com/967274
     * Ben Welsh and Lukasz Dziedzia for `quick test script <http://datadesk.latimes.com/posts/2012/06/test-your-django-app-with-travisci/>`_
     * Florent Lebreton http://github.com/fle
+    * Julien Le Sech http://www.idreammicro.com
+    * Kevin Cooper @kevcooper
+    * Achille Ash @AchilleAsh
 
 Version 1.X:
 
