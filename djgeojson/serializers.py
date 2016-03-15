@@ -369,17 +369,10 @@ class Serializer(PythonSerializer):
 
         self.start_serialization()
 
-<<<<<<< .mine
-        if isinstance(queryset, list):
-
-
-
-=======
         if ValuesQuerySet is not None and isinstance(queryset, ValuesQuerySet):
             self.serialize_values_queryset(queryset)
 
         elif isinstance(queryset, list):
->>>>>>> .theirs
             self.serialize_object_list(queryset)
 
         elif isinstance(queryset, QuerySet):
